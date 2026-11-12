@@ -1,0 +1,36 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+secrets.json
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# PyInstaller outputs
+build/
+dist/
+
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor junk
+.idea/
+*.swp
